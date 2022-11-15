@@ -14,7 +14,7 @@
 		<!-- Custom CSS  -->
 		<style>
 			.gnaap-cert {
-				width: 65%;
+				width: 65rem;
 				height: 730px;
 				margin: 45px auto;
 				background: url(./gnaap-backgroung.png);
@@ -48,20 +48,22 @@
 			}
 			.gnaap-cert .cert-header-container .cert-header {
 				font-family: "Algerian";
-				font-size: 1.8rem;
+				font-size: 1.5rem;
 				word-wrap: break-word;
 				text-transform: uppercase;
-				width: 90%;
+				width: fit-content;
 				line-height: 0.7;
 				margin: 24px auto 0 auto;
 			}
 			.gnaap-cert .cert-header-container .cert-header .small-text {
-				font-size: 1.3rem;
+				font-size: 1.23rem;
 			}
 			.gnaap-cert .cert-content .header {
 				font-family: "Algerian";
 				font-size: 1.65em;
 				text-transform: uppercase;
+				width: fit-content;
+				margin: 0 auto;
 			}
 			.gnaap-cert .cert-content {
 				position: relative;
@@ -82,10 +84,11 @@
 			.gnaap-cert .cert-content .cert-message1 {
 				word-wrap: break-word;
 				text-align: center;
-				font-size: 14px;
+				font-size: 13px;
 				font-weight: 500;
-				width: 37rem;
+				width: 38rem;
 				margin: 0 auto;
+				padding: 3px;
 			}
 			.gnaap-cert .cert-content .name-on-cert {
 				width: 35rem;
@@ -97,19 +100,18 @@
 			}
 			.gnaap-cert .cert-content .cert-message2 {
 				position: relative;
-
-				font-size: 14px;
+				font-size: 13px;
 				font-weight: 500;
 				text-align: justify;
-
-				line-height: 2;
+				line-height: 2.3;
 			}
 			.dotted-underline {
 				border-bottom: dotted 2px;
 				font-weight: 300;
+				font-size: 0.95rem;
 			}
 			.cert-message-container {
-				padding: 0.8rem;
+				padding: 0.9rem;
 			}
 			.cert-footer {
 				position: relative;
@@ -132,6 +134,39 @@
 				top: 12px;
 				font-size: 58px;
 			}
+			.w {
+				position: relative;
+				top: -3px;
+				width: 6rem !important;
+			}
+			.f {
+				font-size: 13px;
+			}
+
+			.gap {
+				gap: 3px;
+			}
+			.pad {
+				padding: 2px;
+			}
+			@media only screen and (min-width: 400px) and (max-width: 1980px) {
+				.gnaap-cert .cert-content {
+					width: 637px;
+					height: 309px;
+				}
+				.gnaap-cert .cert-content .cert-message1 {
+					width: 38rem;
+				}
+				.gnaap-cert .cert-content .name-on-cert {
+					width: 35rem;
+				}
+				.gnaap-cert .cert-footer {
+					width: 18rem;
+				}
+				.gnaap-cert .cert-header-container .cert-header {
+					width: 90%;
+				}
+			}
 		</style>
 		<title>GNAAP Certificate</title>
 	</head>
@@ -150,7 +185,7 @@
 							</p>
 						</div>
 					</div>
-					<div class="cert-header-container">
+					<div class="col-lg-12 cert-header-container">
 						<h1 class="text-center cert-header"
 							>ghana national association of adr practitioners - gnaap
 							<span class="small-text"
@@ -171,19 +206,26 @@
 								practice as Negotiator, Mediator, Arbitrator, Conciliator,
 								Customary Arbitrator as the case may be and in line with the
 								Alternative Dispute Resolution Laws of Ghana in the year ending
-								on
+								on &nbsp; &nbsp;
+								<span class="d-inline dotted-underline pad">December 31st</span>
+								&nbsp; &nbsp; 20 &nbsp; &nbsp;
+								<span class="d-inline dotted-underline pad">22</span> &nbsp;
+								&nbsp;on this license being duly stamped.
 							</p>
-							<span class="d-inline dotted-underline">December 31st</span> 20
-							<span class="d-inline dotted-underline">22</span> on this license
-							being duly stamped.
 
 							<div class="text-center mt-2">
-								<p class="d-inline"
-									>Dated this<span class="dotted-underline d-inline">18th</span>
+								<div class="d-flex justify-content-center gap">
+									<div class="f">Dated this</div>
+									<div class="dotted-underline w">18th</div>
+									<div class="f">day of</div>
+									<div class="dotted-underline w">August</div>
+									<div class="f">20</div>
+									<div class="dotted-underline w">22</div>
+									<!-- Dated this<span class="dotted-underline d-inline">18th</span>
 									day of
 									<span class="dotted-underline d-inline">August</span> 20
-									<span class="dotted-underline d-inline">22</span>
-								</p>
+									<span class="dotted-underline d-inline">22</span> -->
+								</div>
 							</div>
 						</div>
 						<div class="cert-footer">
