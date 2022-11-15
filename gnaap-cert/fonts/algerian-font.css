@@ -12,3 +12,7 @@
 	font-family: "Algerian";
 	src: local("Algerian"), url("./ALGER.TTF") format("woff");
 }
+/* Sans pro - google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap");
+/* Roboto - google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
