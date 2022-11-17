@@ -1,0 +1,167 @@
+@media print {
+	.no-print,
+	.no-print * {
+		display: none !important;
+	}
+	.print-m-0 {
+		margin: 0 !important;
+	}
+}
+
+.header {
+	gap: 1rem;
+}
+.gnaap-cert {
+	width: 1042px;
+	height: 730px;
+	margin: 45px auto;
+	background: url(./imgs/gnaap-backgroung.png);
+	box-shadow: 0 0 5px rgb(0 0 0 / 50%);
+	/*background-position: 0px 775px;*/
+	background-position: center;
+	background-size: cover;
+}
+/*.gnaap-cert:hover {
+				transform: scale(1.1);
+			}*/
+.gnaap-cert .cert-num {
+	border: solid 5px cornflowerblue;
+	background-color: white;
+	height: fit-content;
+	width: fit-content;
+	padding: 8px;
+}
+.gnaap-cert #cert-logo {
+	width: 8rem;
+}
+.gnaap-cert .last-col-4 {
+	height: fit-content !important;
+	position: relative;
+	top: 2.3rem;
+	width: fit-content;
+}
+.gnaap-cert .cert-header-container {
+	width: 46rem;
+	margin: 0 auto;
+}
+.gnaap-cert .cert-header-container .cert-header {
+	font-family: "Algerian";
+	font-size: 1.5rem;
+	word-wrap: break-word;
+	text-transform: uppercase;
+	width: fit-content;
+	line-height: 0.7;
+	margin: 24px auto 0 auto;
+}
+.gnaap-cert .cert-header-container .cert-header .small-text {
+	font-size: 1.23rem;
+}
+.gnaap-cert .cert-content .header {
+	font-family: "Algerian";
+	font-size: 1.65em;
+	text-transform: uppercase;
+	width: fit-content;
+	margin: 0 auto;
+}
+.gnaap-cert .cert-content {
+	position: relative;
+	top: 2rem;
+	width: 637px;
+	height: 309px;
+
+	margin: 0 auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.gnaap-cert .cert-content h2,
+.gnaap-cert .cert-content h3,
+.gnaap-cert .cert-content h4,
+.gnaap-cert .cert-content h5 {
+	font-family: "Source Sans Pro", sans-serif !important;
+}
+.gnaap-cert .cert-content .cert-message1 {
+	word-wrap: break-word;
+	text-align: center;
+	font-size: 13px;
+	font-weight: 500;
+	width: 38rem;
+	margin: 0 auto;
+	padding: 3px;
+}
+.gnaap-cert .cert-content .name-on-cert {
+	width: 35rem;
+	font-weight: 200;
+	font-size: 1.2rem;
+	border-bottom: black solid 2px;
+	text-align: center;
+	margin: 0 auto;
+}
+.gnaap-cert .cert-content .cert-message2 {
+	position: relative;
+	font-size: 13px;
+	font-weight: 500;
+	text-align: justify;
+	line-height: 2.3;
+}
+.dotted-underline {
+	border-bottom: dotted 2px;
+	font-weight: 300;
+	font-size: 0.95rem;
+}
+.cert-message-container {
+	padding: 0.9rem;
+}
+.cert-footer {
+	position: relative;
+	top: 3.3rem;
+	width: 18rem;
+	float: right;
+}
+.footer-initials {
+	position: relative;
+	top: 4rem;
+	right: 8rem;
+	width: 8rem;
+	height: 8rem;
+	border: solid 4px gold;
+	border-radius: 65px;
+	background-color: white;
+}
+.footer-initials p {
+	position: relative;
+	top: 12px;
+	font-size: 58px;
+}
+.w {
+	position: relative;
+	top: -3px;
+	width: 6rem !important;
+}
+.f {
+	font-size: 13px;
+}
+
+.gap {
+	gap: 3px;
+}
+.pad {
+	padding: 2px;
+}
+/* @media only screen and (min-width: 400px) and (max-width: 1980px) {
+	.gnaap-cert .cert-content {
+		width: 637px;
+		height: 309px;
+	}
+	.gnaap-cert .cert-content .cert-message1 {
+		width: 38rem;
+	}
+	.gnaap-cert .cert-content .name-on-cert {
+		width: 35rem;
+	}
+	.gnaap-cert .cert-footer {
+		width: 18rem;
+	}
+	.gnaap-cert .cert-header-container .cert-header {
+		width: 90%;
+	}
+} */
