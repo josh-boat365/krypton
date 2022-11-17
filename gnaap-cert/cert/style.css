@@ -1,3 +1,4 @@
+/* new code - added this to exclude the nav bar when printing the certificate */
 @media print {
 	.no-print,
 	.no-print * {
@@ -6,13 +7,13 @@
 	.print-m-0 {
 		margin: 0 !important;
 	}
-}
-
+} /* end new code */
+/* new code - this separates the buttons on the nav bar */
 .header {
 	gap: 1rem;
-}
+} /* end new code */
 .gnaap-cert {
-	width: 1042px;
+	width: 1042px; /*new code - this sets the width of the certificate*/
 	height: 730px;
 	margin: 45px auto;
 	background: url(./imgs/gnaap-backgroung.png);
@@ -21,6 +22,7 @@
 	background-position: center;
 	background-size: cover;
 }
+/* code not needed  */
 /*.gnaap-cert:hover {
 				transform: scale(1.1);
 			}*/
@@ -40,10 +42,11 @@
 	top: 2.3rem;
 	width: fit-content;
 }
+/* new code  */
 .gnaap-cert .cert-header-container {
 	width: 46rem;
 	margin: 0 auto;
-}
+} /* end new code*/
 .gnaap-cert .cert-header-container .cert-header {
 	font-family: "Algerian";
 	font-size: 1.5rem;
@@ -147,6 +150,7 @@
 .pad {
 	padding: 2px;
 }
+/* Remove media queries not needed*/
 /* @media only screen and (min-width: 400px) and (max-width: 1980px) {
 	.gnaap-cert .cert-content {
 		width: 637px;
