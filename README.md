@@ -1,2 +1,2 @@
 # krypton
-Just a shareable repo for collaborating
+Just a shareable repo for collaborations
